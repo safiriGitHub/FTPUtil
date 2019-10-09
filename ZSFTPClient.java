@@ -428,7 +428,6 @@ public class ZSFTPClient {
 	     private void makeAndChangeWorkingDirectoryFinally(FTPClient ftpClient, String pathname) throws IOException {
 	    	//文件需要保存的路径
 	        CreateDirecroty(ftpClient, pathname);
-	        ftpClient.makeDirectory(pathname);
 	        ftpClient.changeWorkingDirectory(pathname);
 	     }
 	     
