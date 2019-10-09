@@ -2,14 +2,23 @@
 
 **java代码解析文件，并将文件上传至ftp服务路径下**
 
-## Tag
-### 0.1.0
-
 **FTPUploadService:** 解析`HttpServletRequest`中的文件并调用`ZSFTPClient`相关方法完成上传
 
 **UploadFileResult:** 上传文件成功后的结果类，提供了文件的信息供使用
 
 **ZSFTPClient:** 实现`FTP`上传、下载、删除、修改文件名等操作
+
+## Tag
+
+### 0.1.0
+
+### 0.1.1
+	
+	```
+	ZSFTPClient：修改重复创建文件夹bug
+	```
+
+
 
 ## Example
 
